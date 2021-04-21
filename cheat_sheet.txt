@@ -1,0 +1,7 @@
+const canvas = document.querySelector('canvas') // Toma el lienzo del DOM 
+const c = canvas.getContext('2d') // Obtiene el contexto para las funciones del canvas 2d
+canvas.width = window.innerWidth // Establecer el ancho del lienzo al ancho de la pantalla.
+canvas.height = window.innerHeight // Establecer la altura completa de la ventana
+
+Dibujar formas básicas
+
